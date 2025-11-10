@@ -1,16 +1,17 @@
 :root {
   --primary-color: #2f4f4f; /* dark gray-green for text */
   --secondary-color: #4aa3df; /* soft sky blue accent */
-  background: linear-gradient(180deg, rgb(56, 119, 179), white);
-  --card-bg: #8ac9ee; 
+  --card-bg: #8ac9ee;
   --white: #8ac9ee;
 }
 
 body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, rgb(56, 119, 179), white);
   color: var(--primary-color);
   min-height: 100vh;
+  background-attachment: fixed;
 }
 
 .product-page {
